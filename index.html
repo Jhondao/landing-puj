@@ -35,14 +35,29 @@ header{
     border-top: 10px solid #f8cd00;
     border-radius: 10px;
     width: 80px;
+    margin: 0 0 30px 0;
+}
+
+.linea-espaciado-center{
+    border-top: 10px solid #f8cd00;
+    border-radius: 10px;
+    width: 80px;
 }
 
 #section-2 .section-section-2 img{
     width: 60px;
     height: 60px;
-    color: #2c5697;;
 }
 
+#section-3 p{
+    color: rgba(255,255,255,.7);
+}
+
+
+#section-6 img{
+    width: 40px;
+    height: 40px;
+}
 
 
 </style>
@@ -84,22 +99,21 @@ header{
 
 
 <main class="container">
+<div class="espaciado" style="padding:20px"></div>
+<!-- SECCIÓN 2 DE INFO DIPLOMADOS -->
 
-
-<!-- SECCIÓN DE INFO DIPLOMADOS -->
-
-    <div class="row d-flex align-items-center justify-content-between" id="section-2"> 
+    <section class="row d-flex align-items-center justify-content-between" id="section-2"> 
         
         <!-- SECCIÓN DE TEXTO -->
         
-        <div class="col-12 col-lg-6 p-5">
+        <section class="col-12 col-lg-6 p-5">
             <h2>El espacios ideal para <span style="font-weight: bold;">estudiar un diplomado</span></h2>
             <hr class="linea-espaciado">
             <p>Por más de 50 años hemos formado a los mejores para el mundo. Toda esa experiencia se traslada a nuestro espacio virtual que te ofrece programas:</p>
-        </div>
+        </section>
         
         <!-- SECCIÓN DE LOGOS -->
-        <div class="section-section-2 col-12 col-lg-6 p-5">
+        <section class="section-section-2 col-12 col-lg-6 p-5">
             <div class="d-flex align-items-center p-3">
                 <img src="https://img.icons8.com/pastel-glyph/64/000000/puzzle--v2.png"/>
                     <div class="p-3">
@@ -121,68 +135,268 @@ header{
                         <p class="m-0">Arende de profesores expertos en su área.</p>
                     </div>
             </div>
-        </div>
-    </div>
+        </section>
+    </section>
 
-    <div class="row d-flex align-items-center justify-content-between p-3"> 
+    <section class="row d-flex align-items-center justify-content-between p-3 m-0"> 
         <!-- SECCIÓN DE TEXTO --> 
-        <div>
+        <div class="col-12 col-lg-3">
             <img src="assets/img/acredita_the.png" alt="">
         </div>
-        <div>
+        <div class="col-12 col-lg-3">
             <img src="assets/img/acredita_multicampus.png" alt="">
         </div>
-        <div>
+        <div class="col-12 col-lg-3">
             <img src="assets/img/acredita_50_anios.png" alt="">
         </div>
 
-    </div>
+    </section>
 
 
-<!-- SECCIÓN ELIGE TU DIPLOMA -->
 
-    <div class="row">
+
+
+<div class="espaciado" style="padding:20px"></div>
+<!-- SECCIÓN 3 ELIGE TU DIPLOMA -->
+
+    <section class="row">
         <div class="col p-5">
             <h2 class="d-flex align-items-center justify-content-center">Elige tu diploma <span style="font-weight: bold;">100% virtual</span></h2>
-            <hr class="linea-espaciado">
+            <hr class="linea-espaciado-center">
             <p class="d-flex align-items-center justify-content-center">Aprende, prepárate y cambia el rumbo de tu carrera profesional.</p>
         </div>
-    </div>
-
-
-
-
-
+    </section>
     
-    <!-- SECTION DE CONTEDORES PARA ELIGIR EL DIPLOMADO -->
-    
-    <!-- SECTION 1 -->
-    <div class="row">
-        <div class="col-3 bg-primary p-3">
-            <p class="text-light">Diplomado virtual en</p>
+    <!-- FILA 1 -->
+    <section class="row" id="section-3">
+        <div class="col-12 col-sm-6 col-lg-3 bg-primary p-4">
+            <p>Diplomado virtual en</p>
             <h4 class="text-light">Diplomado Alta Gerencia</h4>
             <br><br>
             <div class="d-flex justify-content-end">
                 <a href="#" class="text-light">Me interesa</a>
-                <img src="https://img.icons8.com/ios/50/000000/circled-right.png"/>
-            </div>
-            
+                <i class="fas fa-arrow-circle-right"></i>
+            </div> 
         </div>
-        <div class="col-3 bg-secondary">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eius possimus cupiditate odio rerum natus fugit, officiis nihil ab labore, vero voluptatem repellat nisi culpa cum ratione, blanditiis at laborum?</p>
+        <div class="bg-warning col-12 col-sm-6 col-lg-3 p-4">
+            <p>Diplomado virtual en</p>
+            <h4 class="text-light">Diplomado Alta Gerencia</h4>
+            <br><br>
+            <div class="d-flex justify-content-end">
+                <a href="#" class="text-light">Me interesa</a>
+                <i class="fas fa-arrow-circle-right"></i>
+            </div> 
         </div>
-        <div class="col-3 bg-success">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eius possimus cupiditate odio rerum natus fugit, officiis nihil ab labore, vero voluptatem repellat nisi culpa cum ratione, blanditiis at laborum?</p>
+        <div class="bg-success col-12 col-sm-6 col-lg-3 p-4">
+            <p>Diplomado virtual en</p>
+            <h4 class="text-light">Diplomado Alta Gerencia</h4>
+            <br><br>
+            <div class="d-flex justify-content-end">
+                <a href="#" class="text-light">Me interesa</a>
+                <i class="fas fa-arrow-circle-right"></i>
+            </div> 
         </div>
-        <div class="col-3 bg-danger">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eius possimus cupiditate odio rerum natus fugit, officiis nihil ab labore, vero voluptatem repellat nisi culpa cum ratione, blanditiis at laborum?</p>
+        <div class="bg-danger col-12 col-sm-6 col-lg-3 p-4">
+            <p>Diplomado virtual en</p>
+            <h4 class="text-light">Diplomado Alta Gerencia</h4>
+            <br><br>
+            <div class="d-flex justify-content-end">
+                <a href="#" class="text-light">Me interesa</a>
+                <i class="fas fa-arrow-circle-right"></i>
+            </div> 
         </div>
-    </div>
+    </section>
+
+
+    <!-- FILA 2 -->
+    <section class="row" id="section-3">
+        <div class="bg-info col-12 col-sm-6 col-lg-3 p-4">
+            <p>Diplomado virtual en</p>
+            <h4 class="text-light">Diplomado Alta Gerencia</h4>
+            <br><br>
+            <div class="d-flex justify-content-end">
+                <a href="#" class="text-light">Me interesa</a>
+                <i class="fas fa-arrow-circle-right"></i>
+            </div> 
+        </div>
+        <div class="bg-danger col-12 col-sm-6 col-lg-3 p-4">
+            <p>Diplomado virtual en</p>
+            <h4 class="text-light">Diplomado Alta Gerencia</h4>
+            <br><br>
+            <div class="d-flex justify-content-end">
+                <a href="#" class="text-light">Me interesa</a>
+                <i class="fas fa-arrow-circle-right"></i>
+            </div> 
+        </div>
+        <div class="bg-dark col-12 col-sm-6 col-lg-3 p-4">
+            <p>Diplomado virtual en</p>
+            <h4 class="text-light">Diplomado Alta Gerencia</h4>
+            <br><br>
+            <div class="d-flex justify-content-end">
+                <a href="#" class="text-light">Me interesa</a>
+                <i class="fas fa-arrow-circle-right"></i>
+            </div> 
+        </div>
+        <div class="bg-primary col-12 col-sm-6 col-lg-3 p-4">
+            <p>Diplomado virtual en</p>
+            <h4 class="text-light">Diplomado Alta Gerencia</h4>
+            <br><br>
+            <div class="d-flex justify-content-end">
+                <a href="#" class="text-light">Me interesa</a>
+                <i class="fas fa-arrow-circle-right"></i>
+            </div> 
+        </div>
+    </section>
+
+    <!-- FILA 3 -->
+    <section class="row" id="section-3">
+        <div class="bg-warning col-12 col-sm-6 col-lg-3 p-4">
+            <p>Diplomado virtual en</p>
+            <h4 class="text-light">Diplomado Alta Gerencia</h4>
+            <br><br>
+            <div class="d-flex justify-content-end">
+                <a href="#" class="text-light">Me interesa</a>
+                <i class="fas fa-arrow-circle-right"></i>
+            </div> 
+        </div>
+        <div class="bg-success col-12 col-sm-6 col-lg-3 p-4">
+            <p>Diplomado virtual en</p>
+            <h4 class="text-light">Diplomado Alta Gerencia</h4>
+            <br><br>
+            <div class="d-flex justify-content-end">
+                <a href="#" class="text-light">Me interesa</a>
+                <i class="fas fa-arrow-circle-right"></i>
+            </div> 
+        </div>
+    </section>
 
     
 
 
 
+
+
+
+<div class="espaciado" style="padding:30px"></div>
+<!-- SECTION 4 COMUNIDAD JAVERIANA -->
+    <section class="row mt-5" id="section-4">
+        
+        <div class="col-12 col-lg-4">
+            <h2>El espacios ideal para <span class="font-weight-bold">estudiar un diplomado</span></h2>
+            <hr class="linea-espaciado">
+            <p>Nuestros egresados nos cuentan su experiencia con sus diplomados.</p>
+        </div>
+
+        <div class="col-12 col-lg-8">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis quibusdam error excepturi nulla fugiat ea quae esse perferendis, laboriosam cumque omnis, tenetur doloremque veritatis soluta corrupti cupiditate nisi atque voluptate.</p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos consectetur obcaecati reiciendis consequuntur pariatur amet minima illo explicabo voluptates! Tenetur dolor at cum error aliquid nesciunt maiores ut nisi blanditiis?</p>
+                </div>
+            </div>        
+        </div>
+
+    </section>
+
+
+
+
+<div class="espaciado" style="padding:30px"></div>
+<!-- SECTION 5 ¿Cómo me inscribo? -->
+
+    <section class="row" id="section-5">
+        <div class="col-12 col-lg-4">
+            <h2 class="font-weight-bold">¿Cómo me inscribo?</h2>
+            <hr class="linea-espaciado d-flex justify-content-between bg-primary">
+            <p>El proceso es muy fácil y rápido, lo único que necesitas es tener una identificación oficial*.</p>
+            <br>
+            <button class="btn btn-warning">Empieza hoy</button>
+        </div>
+
+        <div class="col-12 col-lg-8">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <img src="https://img.icons8.com/ios/50/000000/pencil--v1.png"/>
+                    <h5>1. Regístrate</h5>
+                    <p>Déjanos tus datos y un asesor te contactará para llenar tu solicitud</p>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <img src="https://img.icons8.com/ios/50/000000/bank-card-back-side.png"/>
+                    <h5>2. Realiza el pago</h5>
+                    <p>Elige el medio de pago que prefieras: en línea o en efectivo.</p>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/external-locked-miscellaneous-flatart-icons-outline-flatarticons.png"/>
+                    <h5>3. Inicia tu diplomado 100% virtual</h5>
+                    <p>Recibirás un correo con tus credenciales para ingresar a la plataforma.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+<div class="espaciado" style="padding:30px"></div>
+<!-- SECTION 6 Cambia el rumbo de tu carrera profesional -->
+
+    <section class="row" id="section-6">
+        <div class="col-12 col-lg-4">
+            <h2>Cambia hoy el rumbo de <span class="font-weight-bold">tu carrera profesional</span> </h2>
+            <hr class="linea-espaciado">
+            <p>Tus aspiraciones no tienen que esperar:</p>
+            <button class="btn btn-warning">Inscribete ahora</button>
+        </div>
+        <div class="col-12 col-lg-4">
+            <div class="d-flex align-items-center">
+                <img src="https://img.icons8.com/glyph-neue/64/000000/checked.png"/>
+                    <div class="p-3">
+                        <h6 class="m-0 font-weight-bold">Adaptables</h6>
+                        <p class="m-0">Elige cuándo y a qué hora estudiar.</p>
+                    </div>
+            </div>
+            <div class="d-flex align-items-center">
+                <img src="https://img.icons8.com/glyph-neue/64/000000/checked.png"/>
+                    <div class="p-3">
+                        <h6 class="m-0 font-weight-bold">Adaptables</h6>
+                        <p class="m-0">Elige cuándo y a qué hora estudiar.</p>
+                    </div>
+            </div>
+            <div class="d-flex align-items-center">
+                <img src="https://img.icons8.com/glyph-neue/64/000000/checked.png"/>
+                    <div class="p-3">
+                        <h6 class="m-0 font-weight-bold">Adaptables</h6>
+                        <p class="m-0">Elige cuándo y a qué hora estudiar.</p>
+                    </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="row">
+                <div class="col-6">
+                    <h2>57 1593 8718</h2>
+                </div>
+                <div class="col-6">
+                    <h2>57 33 3033 3376</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h3>diplomados@virtualjaverianacali.co</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+<div class="espaciado" style="padding:30px"></div>
 
 </main>
 
@@ -194,7 +408,9 @@ header{
 
 
 <footer>
+    <section>
 
+    </section>
 </footer>
 
 
