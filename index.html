@@ -16,13 +16,22 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h2{
+body{
+    margin: 0;
+}
+
+h2, h6{
     color: #2c5697;
+}
+
+h6{
+    font-size: 1.2rem;
 }
 
 h5{
     color: #333333;
 }
+
 
 
 header{
@@ -53,12 +62,40 @@ header{
     color: rgba(255,255,255,.7);
 }
 
+#section-5 img{
+    width: 100px;
+    height: 100px;
+}
+
 
 #section-6 img{
     width: 40px;
     height: 40px;
 }
 
+.section-footer-1{
+    background-color: #2c5697;
+}
+
+.section-footer-2{
+    background-color: #f8cd00;
+}
+
+.section-footer-1 img{
+    width: 100px;
+    height: 100px;
+}
+
+.section-footer-1 .redes-logos img{
+    width: 40px;
+    height: 40px;
+    color: #2c5697;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background:white;
+    border-radius: 60%;
+    padding: 8px;
+}
 
 </style>
 
@@ -115,21 +152,21 @@ header{
         <!-- SECCIÓN DE LOGOS -->
         <section class="section-section-2 col-12 col-lg-6 p-5">
             <div class="d-flex align-items-center p-3">
-                <img src="https://img.icons8.com/pastel-glyph/64/000000/puzzle--v2.png"/>
+                <img src="assets/iconos/puzzle-piece-solid.svg"/>
                     <div class="p-3">
                         <h5 class="m-0 font-weight-bold">Adaptables</h5>
                         <p class="m-0">Elige cuándo y a qué hora estudiar.</p>
                     </div>
             </div>
             <div class="d-flex p-2">
-                <img src="https://img.icons8.com/ios/50/000000/nui2.png"/>
+                <img src="assets/iconos/hand-pointer-regular.svg"/>
                     <div class="p-3">
                         <h5 class="m-0 font-weight-bold">Eficaces</h5>
                         <p class="m-0">Un modelo de estudio es práctico y rápido.</p>
                     </div>
             </div>
             <div class="d-flex p-2">
-                <img src="https://img.icons8.com/ios/50/000000/prize--v1.png"/>
+                <img src="assets/iconos/award-solid.svg"/>
                     <div class="p-3">
                         <h5 class="m-0 font-weight-bold">Relevantes</h5>
                         <p class="m-0">Arende de profesores expertos en su área.</p>
@@ -317,22 +354,23 @@ header{
 
         <div class="col-12 col-lg-8">
             <div class="row">
-                <div class="col-12 col-lg-4">
-                    <img src="https://img.icons8.com/ios/50/000000/pencil--v1.png"/>
+                <div class="col-12 col-lg-4 pb-5">
+                    <img src="assets/iconos/pencil-alt-solid.svg" class="p-3"/>
                     <h5>1. Regístrate</h5>
-                    <p>Déjanos tus datos y un asesor te contactará para llenar tu solicitud</p>
+                    <p>Déjanos tus datos y un asesor te contactará para llenar tu solicitud</p>
                 </div>
                 <div class="col-12 col-lg-4">
-                    <img src="https://img.icons8.com/ios/50/000000/bank-card-back-side.png"/>
+                    <img src="assets/iconos/credit-card-solid.svg"  class="p-3"/>
                     <h5>2. Realiza el pago</h5>
                     <p>Elige el medio de pago que prefieras: en línea o en efectivo.</p>
                 </div>
                 <div class="col-12 col-lg-4">
-                    <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/external-locked-miscellaneous-flatart-icons-outline-flatarticons.png"/>
-                    <h5>3. Inicia tu diplomado 100% virtual</h5>
+                    <img src="assets/iconos/unlock-alt-solid.svg"  class="p-3"/>
+                    <h5>3. Inicia tu diplomado 100% virtual</h5>
                     <p>Recibirás un correo con tus credenciales para ingresar a la plataforma.</p>
                 </div>
             </div>
+            <p class="text-secondary mt-5">*Puedes usar como identificación oficial: número único de identificación personal, cédula, cédula extranjera, documento extranjero, libreta militar, NIT, pasaporte, tarjeta de identidad.</p>
         </div>
     </section>
 
@@ -352,47 +390,41 @@ header{
         </div>
         <div class="col-12 col-lg-4">
             <div class="d-flex align-items-center">
-                <img src="https://img.icons8.com/glyph-neue/64/000000/checked.png"/>
-                    <div class="p-3">
-                        <h6 class="m-0 font-weight-bold">Adaptables</h6>
-                        <p class="m-0">Elige cuándo y a qué hora estudiar.</p>
-                    </div>
+                    <img src="assets/iconos/check-solid.svg" alt="">
+                    <p class="mx-3">Amplía tus conocimientos.</p>
             </div>
             <div class="d-flex align-items-center">
-                <img src="https://img.icons8.com/glyph-neue/64/000000/checked.png"/>
-                    <div class="p-3">
-                        <h6 class="m-0 font-weight-bold">Adaptables</h6>
-                        <p class="m-0">Elige cuándo y a qué hora estudiar.</p>
-                    </div>
+                <img src="assets/iconos/check-solid.svg" alt="">
+                <p class="mx-3">Estudia con casos reales y adquiere experiencia.</p>
             </div>
             <div class="d-flex align-items-center">
-                <img src="https://img.icons8.com/glyph-neue/64/000000/checked.png"/>
-                    <div class="p-3">
-                        <h6 class="m-0 font-weight-bold">Adaptables</h6>
-                        <p class="m-0">Elige cuándo y a qué hora estudiar.</p>
-                    </div>
+                <img src="assets/iconos/check-solid.svg" alt="">
+                <p class="mx-3">Desarrolla habilidades blandas (trabajo en equipo, admón. del tiempo, liderazgo).</p>
+            </div>
+            <div class="d-flex align-items-center">
+                <img src="assets/iconos/check-solid.svg" alt="">
+                <p class="mx-3">Agrega tu constancia a tu CV como un plus.</p>
             </div>
         </div>
-        <div class="col-12">
+        <div class="col-12 mt-5">
             <div class="row">
-                <div class="col-6">
-                    <h2>57 1593 8718</h2>
+                <div class="col-6 d-flex">
+                   <img src="assets/iconos/mobile-alt-solid.svg" alt="" style="width: 20px; height: 20px;"> 
+                   <h6 class="ml-2">57 1593 8718</h6>
                 </div>
-                <div class="col-6">
-                    <h2>57 33 3033 3376</h2>
+                <div class="col-6 d-flex">
+                    <img src="assets/iconos/whatsapp-brands.svg" alt="" style="width: 20px; height: 20px;">
+                    <h6 class="ml-2">57 33 3033 3376</h6>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <h3>diplomados@virtualjaverianacali.co</h3>
+            <div class="row mt-5">
+                <div class="col-12 d-flex">
+                    <img src="assets/iconos/envelope-regular.svg" alt="" style="width: 20px; height: 20px;">
+                    <h6 class="ml-2">diplomados@virtualjaverianacali.co</h6>
                 </div>
             </div>
         </div>
     </section>
-
-
-
-
 
 
 
@@ -406,10 +438,71 @@ header{
 
 
 
+<!-- SECTION FOOTER Info -->
 
 <footer>
-    <section>
+    <section class="section-footer-1" id="section-footer">
+        <div class="container p-5">
+            <div class="row">
 
+                <!-- COLUMN 1 -->
+                <div class="col-12 col-lg-4">
+                    <div>
+                        <img src="assets/img/logo-puj-bn.png" alt="" >
+                    </div>
+                    <div class="d-flex redes-logos">
+                        <a href=""><img src="assets/iconos/facebook-f-brands.svg" alt=""></a>
+                        <a href=""><img src="assets/iconos/linkedin-in-brands.svg" alt=""></a>
+                        <a href=""><img src="assets/iconos/instagram-brands.svg" alt=""></a>
+                        <a href=""><img src="assets/iconos/twitter-brands.svg" alt=""></a>
+                    </div>
+                    <div>
+                        <button class="btn btn-warning">Iniciar sesión</button>
+                    </div>
+                </div>
+
+                <!-- COLUM 2 -->
+                <div class="col-12 col-lg-4">
+                    <div class="col-6 d-flex">
+                        <img src="assets/iconos/mobile-alt-solid.svg" alt="" style="width: 20px; height: 20px;"> 
+                        <h5 class="">57 1593 8718</h5>
+                     </div>
+                     <div class="col-6 d-flex">
+                        <img src="assets/iconos/mobile-alt-solid.svg" alt="" style="width: 20px; height: 20px;"> 
+                        <h5 class="">57 1593 8718</h5>
+                     </div>
+                     <div class="col-6 d-flex">
+                        <img src="assets/iconos/mobile-alt-solid.svg" alt="" style="width: 20px; height: 20px;"> 
+                        <h5 class="">57 1593 8718</h5>
+                     </div>
+                </div>
+
+
+                <!-- COLUM 3 -->
+                <div class="col-12 col-lg-4">
+                    <ul>
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Diplomados</a></li>
+                        <li><a href="">Admisiones</a></li>
+                        <li><a href="">Nuestra Universidad</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-footer-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <p>Copyright © 2020 | Consulta el Aviso de privacidad</p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <p>"Institución de Educación Superior sujeta a control y vigilancia por el Ministerio de Educación Nacional".
+                        Acreditación de Alta Calidad Multicampus Res. 013170 17 de julio 2020 – MEN</p>
+                </div>
+            </div>
+        </div>
     </section>
 </footer>
 
