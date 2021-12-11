@@ -1,1 +1,12 @@
-<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="credit-card" class="svg-inline--fa fa-credit-card fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M0 432c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V256H0v176zm192-68c0-6.6 5.4-12 12-12h136c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-40zm-128 0c0-6.6 5.4-12 12-12h72c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM576 80v48H0V80c0-26.5 21.5-48 48-48h480c26.5 0 48 21.5 48 48z"></path></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 576 512" style="enable-background:new 0 0 576 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#2C5697;stroke-width:20;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M8.7,419.9c0,25.7,20.8,46.5,46.5,46.5h465.4c25.7,0,46.5-20.8,46.5-46.5V249.2H8.7V419.9z M194.9,353.9
+	c0-6.4,5.2-11.6,11.6-11.6h131.9c6.4,0,11.6,5.2,11.6,11.6v38.8c0,6.4-5.2,11.6-11.6,11.6H206.5c-6.4,0-11.6-5.2-11.6-11.6V353.9z
+	 M70.8,353.9c0-6.4,5.2-11.6,11.6-11.6h69.8c6.4,0,11.6,5.2,11.6,11.6v38.8c0,6.4-5.2,11.6-11.6,11.6H82.4
+	c-6.4,0-11.6-5.2-11.6-11.6V353.9z M567.3,78.5v46.5H8.7V78.5C8.7,52.8,29.6,32,55.3,32h465.4C546.4,32,567.3,52.8,567.3,78.5z"/>
+</svg>
