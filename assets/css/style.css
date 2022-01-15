@@ -36,10 +36,7 @@ p{
 
 /*-------------------------------------------------- SECTION HEADER - MENÚ - HOME --------------------------------------------------------*/
 
-header{
-    background-image: url('../img/slide-01.jpg');
-    background-size: cover;
-}
+
 
 .linea-espaciado{
     background-color: var(--color-secondary);
@@ -55,6 +52,12 @@ header{
 
 
 /* ------------------------------  SECTION 1 - home formulario --------------------------------------------------*/
+
+#section-1{
+    background-image: url('../img/slide-01.jpg');
+    background-size: cover;
+}
+
 
 #section-1 #section-1-text{
     border-radius: 50%;
