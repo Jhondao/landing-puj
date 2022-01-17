@@ -179,19 +179,6 @@ p{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .linea-espaciado{
     background-color: var(--color-secondary);
     border-top: 6px solid var(--color-secondary);  
@@ -316,6 +303,12 @@ p{
 #section-5 img{
     width: 100px;
     height: 100px;
+}
+
+
+#section-5 .section-5-cards .card:hover{
+    background: var(--color-primary);
+    color: #fff;
 }
 
 
