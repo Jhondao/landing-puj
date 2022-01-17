@@ -75,6 +75,7 @@ p{
 }
 .contenedor .login a{
     background-color: var(--color-secondary);
+    color: #000;
     border-radius: 0.8em;
     display: inline-block;
     padding: 5px 25px;
