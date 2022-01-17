@@ -116,7 +116,7 @@ p{
 
 .cont-menu{
     width: 100%;
-    max-width: 250px;
+    max-width: 350px;
     background: var(--color-primary);
     height: 100vh;
     position: relative;
