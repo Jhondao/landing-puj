@@ -110,7 +110,7 @@ p{
 }
 
 
-.offcanvas-body nav a{
+.offcanvas-body .menu a{
     height: 30px;
     display: block;
     text-decoration: none;
@@ -124,9 +124,18 @@ p{
     float: left;
     line-height: 100px;
     padding: 20px;
-
 }
 
+
+.offcanvas-body .login a{
+    background-color: var(--color-secondary);
+    color: #000;
+    border-radius: 0.8em;
+    padding: 5px 25px;
+    line-height: normal;
+    text-decoration: none;
+    font-size: 0.9em;
+}
 /*Fin de Menù lateral*/
 
 
