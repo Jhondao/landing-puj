@@ -94,6 +94,7 @@ p{
 
 .offcanvas-start{
     width: 320px !important;
+    overflow: hidden;
 }
 
 
@@ -143,18 +144,17 @@ p{
 /* ------------------------------  SECTION 1 - home formulario --------------------------------------------------*/
 
 #section-1{
-    padding-top: 200px;
+    padding-top: 120px;
     background-image: url('../img/slide-01.jpg');
     background-size: cover;
 }
 
 
 #section-1 #section-1-text{
-    border-radius: 50%;
+    clip-path: circle(50% at 50% 50%);
     height: 500px;
     width: 500px;
     background-color: var(--color-primary);
-    padding: 100px;
 }
 
 #section-1 #section-1-text span{
@@ -178,7 +178,6 @@ p{
 #section-1 #section-1-formulario span{
     background-color: white;
 }
-
 
 
 
