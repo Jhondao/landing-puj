@@ -37,25 +37,25 @@ p{
 /*-------------------------------------------------- SECTION HEADER - MENÚ --------------------------------------------------------*/
 
 
-.contenedor{
+.container{
     width: 90%;
     max-width: 1200px;
     margin: auto;
 }
 
-.contenedor .btn-menu{
+.container .btn-menu{
     float: left;
     line-height:100px;
 }
 
-.contenedor .btn-menu label{
+.container .btn-menu label{
     color: #fff;
     font-size: 25px;
     cursor: pointer;
 }
 
 
-.contenedor .logo h1{
+.container .logo h1{
     float: left;
     color: #fff;
 	font-weight: 400;
@@ -64,13 +64,13 @@ p{
     line-height: 100px;
 }
 
-.contenedor .login{
+.container .login{
     float: right;
     line-height: 100px;
 }
 
 
-.contenedor .login a{
+.container .login a{
     background-color: var(--color-secondary);
     color: #000;
     border-radius: 0.8em;
@@ -83,7 +83,7 @@ p{
     font-size: 0.9em;
     margin-right: 5px;
 }
-.contenedor .login a:hover{
+.container .login a:hover{
     border-bottom: 2px solid #c7c7c7;
     padding-bottom: 5px;
 }
@@ -147,6 +147,7 @@ p{
     padding-top: 120px;
     background-image: url('../img/slide-01.jpg');
     background-size: cover;
+    
 }
 
 
