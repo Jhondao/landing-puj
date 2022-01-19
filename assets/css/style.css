@@ -37,11 +37,6 @@ p{
 /*-------------------------------------------------- SECTION HEADER - MENÚ --------------------------------------------------------*/
 
 
-.container{
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-}
 
 .container .btn-menu{
     float: left;
