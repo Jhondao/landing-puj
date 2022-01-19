@@ -206,6 +206,22 @@ p{
 }
 
 
+
+/* ------------------------------ SECTION 2.1 - Nuestros programas -------------------------------------- */
+
+
+
+#section-pro .linea-espaciado-center{
+    background-color: var(--color-secondary);
+    border-top: 6px solid var(--color-secondary);
+    border-radius: 10px;
+    width: 80px;
+    margin: auto;
+    margin-bottom: 10px;
+    opacity: unset;
+}
+
+
 /*------------------------------------------------ SECTION 3 - Elige tu diploma ---------------------------------------------------------*/
 
 #section-3 {
