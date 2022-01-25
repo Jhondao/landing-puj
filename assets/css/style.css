@@ -487,6 +487,10 @@ section p {
     opacity: 0;
   }
 }
+.space-medium .feature-block-text {
+    align-self: center;
+    text-align: left;
+}
 
 .feature-area3 {
   padding-bottom: 90px;
@@ -511,7 +515,6 @@ section p {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 479px) {
 
 .feature-area .feature-box {
   margin-top: 25px;
@@ -755,12 +758,8 @@ section p {
   -o-transform: scale(0.6);
   transform: scale(0.6);
 }
-.feature-block-text {
-    align-self: center;
-    text-align: left;
-}
 
-/***/
+
 .banner-video-imagen-landing .background-image {
   position: absolute;
   top: 50%;
