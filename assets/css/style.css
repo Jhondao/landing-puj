@@ -148,12 +148,12 @@ p {
 
 /* ------------------------------  SECTION 1 - home formulario --------------------------------------------------*/
 
-#section-1{
+/*#section-1{
     padding-top: 120px;
     background-image: url('../img/slide-01.jpg');
     background-size: cover;
     
-}
+}*/
 
 
 #section-1 #section-1-text{
@@ -914,16 +914,8 @@ p {
   transform: scale(0.6);
 }
 
-.bg-overlay {
-  background: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  top: -60px;
-  bottom: -100px;
-  left: 0;
-  right: 0;
-  z-index: 0;
-}
-video {
+
+.banner-video-imagen-landing .background-image {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -936,16 +928,60 @@ video {
   -ms-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: url(facade.jpg) no-repeat;
   background-size: cover;
   -webkit-transition: 1s opacity;
   transition: 1s opacity;
   z-index: 0;
 }
-.ov-hidden {
-  overflow: hidden;
-}
 
+.banner-video-imagen-landing {
+    position: relative;
+    height: 80vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .banner-video-imagen-landing video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .banner-video-imagen-landing .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .banner-video-imagen-landing .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+  @media (pointer: coarse) and (hover: none) {
+    .banner-video-imagen-landing {
+      background: url('http://sandbox.thewikies.com/vfe-generator/images/big-buck-bunny_poster.jpg') black no-repeat center center scroll;
+    }
+    .hebanner-video-imagen-landingader video {
+      display: none;
+    }
+  }
+/***/
 #MiCarousel{
 padding: 3em 0;
 }
