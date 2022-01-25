@@ -18,21 +18,21 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h2 {
-  color: var(--color-primary) !important;
+section h2{
+  color: var(--color-primary);
   animation: tada;
 }
 
-h6 {
+section h6 {
   font-size: var(--md);
 }
 
-h5 {
+section h5 {
   color: var(--text-color);
-  font-size: var(--md) !important;
+  font-size: var(--md)
 }
 
-p {
+section p {
   font-size: var(--sm);
 }
 
@@ -158,7 +158,6 @@ p {
     
 }*/
 
-
 #section-1 #section-1-text{
     clip-path: circle(50% at 50% 50%);
     height: 500px;
@@ -198,10 +197,6 @@ p {
 
 /* ------------------------------ SECTION 2 - Espacio idela para estudiar el diplomado -------------------------------------- */
 
-#section-2 {
-    padding-bottom: 80px;
-}
-
 #section-2 .section-section-2 img {
   width: 60px;
   height: 60px;
@@ -227,8 +222,6 @@ p {
 /*------------------------------------------------ SECTION 3 - Elige tu diploma ---------------------------------------------------------*/
 
 #section-3 {
-    padding-top: 100px;
-    padding-bottom: 180px;
     background-color: #f5f5f5;
     clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
 }
@@ -262,11 +255,6 @@ p {
 
 /*-------------------------------------------- SECTION 4 - Comunidad Javeriana --------------------------------------------*/
 
-#section-4 {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
 #section-4 .section-4-img {
   background-image: url(../img/icon_quote.png);
   background-repeat: no-repeat;
@@ -281,12 +269,6 @@ p {
 }
 
 /*------------------------------------------------ SECTION 5 - Como me inscribo ---------------------------------------------------------*/
-
-#section-5 {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
 #section-5 img {
   width: 100px;
   height: 100px;
@@ -300,8 +282,6 @@ p {
 /*--------------------------------- SECTION 6 - Cambia hoy el rumbo de tu carrera profesional -----------------------------------*/
 
 #section-6 {
-    padding-top: 100px;
-    padding-bottom: 120px;
     background-color: #f5f5f5;
     clip-path: polygon(100% 0, 100% 90%, 0 100%, 0 10%);
 }
@@ -372,20 +352,16 @@ p {
   border-width: 2px;
 }
 
+/**/
 .galeria-img .accordian {
   width: 805px;
   height: 320px;
   overflow: hidden;
-
-  /*Time for some styling*/
   margin: 100px auto;
 }
 
-/*A small hack to prevent flickering on some browsers*/
 .galeria-img .accordian ul {
   width: 1200px;
-  /*This will give ample space to the last item to move
-	instead of falling down/flickering during hovers.*/
 }
 
 .galeria-img .accordian li {
@@ -393,21 +369,15 @@ p {
   display: block;
   width: 160px;
   float: left;
-
-  /*Transitions to give animation effect*/
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
-  /*If you hover on the images now you should be able to 
-	see the basic accordian*/
 }
 
-/*Reduce with of un-hovered elements*/
 .galeria-img .accordian ul:hover li {
   width: 40px;
 }
-/*Lets apply hover effects now*/
-/*The LI hover style should override the UL hover style*/
+
 .galeria-img .accordian ul li:hover {
   width: 640px;
 }
@@ -416,7 +386,6 @@ p {
   display: block;
 }
 
-/*Image title styles*/
 .galeria-img .accordian .image_title {
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -432,6 +401,7 @@ p {
   font-size: 16px;
 }
 
+/**/
 .feature-app-img {
   position: relative;
   text-align: center;
@@ -875,8 +845,7 @@ p {
 .feature-area .feature-box .feature-item:hover .feature__icon {
   color: #fff;
 }
-.feature-area .feature-box .feature-item:hover .feature__title a {
-}
+
 .feature-area .feature-box .feature-item:hover:after {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
@@ -945,7 +914,7 @@ p {
     overflow: hidden;
   }
   
-  .banner-video-imagen-landing video {
+.banner-video-imagen-landing video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -957,8 +926,8 @@ p {
     -ms-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-  }
+    transform: translateX(-50%) translateY(-50%);  
+}
   
   .banner-video-imagen-landing .container {
     position: relative;
@@ -1029,4 +998,61 @@ padding: 3em 0;
 
 .carousel-controls{
     display: none;
+}
+
+
+/**/
+section.banner-left {  position: relative;}
+section.banner-left::before {
+    content: "";
+    width: 100%;
+    height: 90%;
+    left: 0;
+    top: 5%;
+    background: #008d99;
+    position: absolute;
+}
+section.banner-left .content { margin: -3rem 0;}
+section.banner-left .col-text-w {
+    display: flex;
+}
+section.banner-left .col-text-w .wrapper-text {
+    align-self: center;
+    text-align: left;
+}
+section.banner-left .col-text-w .wrapper-text h2 {
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0.7em;
+}
+section.banner-left .col-text-w .wrapper-text p {
+    font-size: 14px;
+    text-align: left;
+    font-weight: 300;
+    font-family: Roboto;
+    color: #fff;
+}
+
+/****/
+section.banner-right .col-text .wrapper-text {
+    align-self: center;
+    text-align: left;
+    padding-right: 2em;
+}
+
+section.banner-right .col-text .wrapper-text h2 span {
+    font-size: 22px;
+    font-family: Roboto;
+    font-weight: normal;
+    color: #103062;
+}
+
+section.banner-right .col-text .wrapper-text h2 {
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #103062;
+    margin-bottom: 0.7em;
 }
