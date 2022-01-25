@@ -51,7 +51,7 @@
         </div>
     </header>
 
-    
+<body>
 
     <!-- SECTION HOME -->
     <section id="section-1" class="">
@@ -317,12 +317,11 @@
 
                 <section>
                     <p class="text-center">
-                        <button class="btn btn-primary" type="button" data-toggle="collapse"
-                            data-target=".multi-collapse" aria-expanded="false"
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false"
                             aria-controls="facultad1 facultad2 facultad3 facultad4 facultad5">Todas las
                             facultades</button>
                         <a class="btn btn-warning text-white" data-toggle="collapse" href="#facultad1" role="button"
-                            aria-expanded="false" aria-controls="facultad1">Facultad 1</a>
+                            aria-expanded="true" aria-controls="facultad1">Facultad 1</a>
                         <a class="btn btn-warning text-white" data-toggle="collapse" href="#facultad2" role="button"
                             aria-expanded="false" aria-controls="facultad2">Facultad 2</a>
                         <a class="btn btn-warning text-white" data-toggle="collapse" href="#facultad3" role="button"
@@ -337,7 +336,17 @@
 
                     <div class="row">
                         <div class="col-12 col-lg">
-                            <div class="collapse multi-collapse active" id="facultad1">
+                            <div class="collapse multi-collapse show" id="facultad1">
+                                <div class="card card-body" aria-expanded="true">
+                                    <h4>Lorem ipsum</h4>
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+                                    cred nesciunt sapiente ea proident.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg">
+                            <div class="collapse multi-collapse show" id="facultad2">
                                 <div class="card card-body">
                                     <h4>Lorem ipsum</h4>
                                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
@@ -347,7 +356,7 @@
                             </div>
                         </div>
                         <div class="col-12 col-lg">
-                            <div class="collapse multi-collapse" id="facultad2">
+                            <div class="collapse multi-collapse show" id="facultad3">
                                 <div class="card card-body">
                                     <h4>Lorem ipsum</h4>
                                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
@@ -357,7 +366,7 @@
                             </div>
                         </div>
                         <div class="col-12 col-lg">
-                            <div class="collapse multi-collapse" id="facultad3">
+                            <div class="collapse multi-collapse show" id="facultad4">
                                 <div class="card card-body">
                                     <h4>Lorem ipsum</h4>
                                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
@@ -367,17 +376,7 @@
                             </div>
                         </div>
                         <div class="col-12 col-lg">
-                            <div class="collapse multi-collapse" id="facultad4">
-                                <div class="card card-body">
-                                    <h4>Lorem ipsum</h4>
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
-                                    cred nesciunt sapiente ea proident.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg">
-                            <div class="collapse multi-collapse" id="facultad5">
+                            <div class="collapse multi-collapse show" id="facultad5">
                                 <div class="card card-body">
                                     <h4>Lorem ipsum</h4>
                                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
@@ -392,6 +391,7 @@
 
             </div>
         </section>
+        
 
         <!-- SECCIÓN 3 ELIGE TU DIPLOMA -->
         <section id="section-3" class="">
@@ -795,8 +795,7 @@
                         <p>Lorem, ipsum dolor sit amet consectetur.</p>
                         <button class="btn btn-warning"> Iniciar sesión</button>
                     </div>
-
-
+    
                     <div class="col-12 col-lg-4">
                         <div class="animate__animated animate__slideInRight d-flex align-items-center mb-3">
                             <img src="assets/iconos/check-solid.svg" alt="">
