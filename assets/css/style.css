@@ -357,7 +357,7 @@ section p {
   width: 805px;
   height: 320px;
   overflow: hidden;
-  margin: 100px auto;
+  margin: 20px auto;
 }
 
 .galeria-img .accordian ul {
@@ -392,6 +392,7 @@ section p {
   left: 0;
   bottom: 0;
   width: 640px;
+  text-align: left;
 }
 .galeria-img .accordian .image_title p {
   display: block;
