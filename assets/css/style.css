@@ -87,6 +87,9 @@ p {
 
 /*----------------Menù lateral-------------------*/
 
+.offcanvas{
+  transition: transform .4s ease-in-out !important;
+}
 
 .offcanvas-start{
     width: 320px !important;
