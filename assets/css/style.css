@@ -151,29 +151,29 @@ section p {
 
 /* ------------------------------  SECTION 1 - home formulario --------------------------------------------------*/
 
-/*#section-1{
+/*.banner-video-imagen-landing{
     padding-top: 120px;
     background-image: url('../img/slide-01.jpg');
     background-size: cover;
     
 }*/
 
-#section-1 #section-1-text{
+.banner-video-imagen-landing .banner-video-imagen-landing-text{
     clip-path: circle(50% at 50% 50%);
     height: 500px;
     width: 500px;
     background-color: var(--color-primary);
 }
 
-#section-1 #section-1-text span {
+.banner-video-imagen-landing .banner-video-imagen-landing-text span {
   color: var(--color-secondary);
 }
 
-#section-1 #section-1-text p {
+.banner-video-imagen-landing .banner-video-imagen-landing-text p {
   font-size: var(--lg);
 }
 
-#section-1 #section-1-formulario {
+.banner-video-imagen-landing .banner-video-imagen-landing-formulario {
   background: linear-gradient(
     to top,
     var(--color-primary) 30%,
@@ -183,11 +183,11 @@ section p {
   padding: 20px 30px;
 }
 
-#section-1 #section-1-formulario input, select{
+.banner-video-imagen-landing .banner-video-imagen-landing-formulario input, select{
     border-left: 3px solid var(--color-secondary);
 }
 
-#section-1 #section-1-formulario span{
+.banner-video-imagen-landing .banner-video-imagen-landing-formulario span{
     background-color: white;
 }
 
@@ -197,7 +197,7 @@ section p {
 
 /* ------------------------------ SECTION 2 - Espacio idela para estudiar el diplomado -------------------------------------- */
 
-#section-2 .section-section-2 img {
+.section-texto-icon .section-section-2 img {
   width: 60px;
   height: 60px;
 }
@@ -208,7 +208,7 @@ section p {
 
 
 
-#section-pro .linea-espaciado-center{
+.section-programas .linea-espaciado-center{
     background-color: var(--color-secondary);
     border-top: 6px solid var(--color-secondary);
     border-radius: 10px;
