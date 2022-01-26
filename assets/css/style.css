@@ -360,6 +360,16 @@ section p {
   margin: 100px auto;
 }
 
+
+@media (max-width: 1020px){
+  .galeria-img .accordian {
+    width: 100%;
+  }
+}
+
+
+
+
 .galeria-img .accordian ul {
   width: 1200px;
 }
@@ -908,11 +918,18 @@ section.banner-left .col-text-w .wrapper-text p {
     color: #fff;
 }
 
+
+section.banner-left picture img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
 /****/
 section.banner-right .col-text .wrapper-text {
     align-self: center;
     text-align: left;
-    padding-right: 2em;
 }
 
 section.banner-right .col-text .wrapper-text h2 span {
@@ -928,4 +945,10 @@ section.banner-right .col-text .wrapper-text h2 {
     font-weight: bold;
     color: #103062;
     margin-bottom: 0.7em;
+}
+
+
+section.banner-right picture img{
+  width: 100%;
+  height: 100%;
 }
