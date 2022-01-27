@@ -354,10 +354,16 @@ section p {
 
 /**/
 .galeria-img .accordian {
-  width: 805px;
+  width: 100%;
   height: 320px;
   overflow: hidden;
   margin: 20px auto;
+}
+
+@media (min-width: 640px) {
+  .galeria-img .accordian {
+    width: 805px;
+  }
 }
 
 .galeria-img .accordian ul {
@@ -915,11 +921,14 @@ section.banner-left .col-text-w .wrapper-text p {
     color: #fff;
 }
 
+section.banner-left img{
+  width: 100%;
+}
+
 /****/
 section.banner-right .col-text .wrapper-text {
     align-self: center;
     text-align: left;
-    padding-right: 2em;
 }
 
 section.banner-right .col-text .wrapper-text h2 span {
@@ -935,4 +944,9 @@ section.banner-right .col-text .wrapper-text h2 {
     font-weight: bold;
     color: #103062;
     margin-bottom: 0.7em;
+}
+
+
+section.banner-right img{
+  width: 100%;
 }
